@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "@common/ui": ["packages/ui/src"],
+      "@common/utils": ["packages/utils/src"]
+    }
+  }
+}
