@@ -1,7 +1,6 @@
 {
   "name": "common-repository-architecture",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,16 @@
   "devDependencies": {
     "turbo": "^2.5.5"
   },
-  "workspaces": ["packages/*", "examples/*"]
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "dependencies": {
+    "turbo-windows-64": "^2.5.5"
+  },
+  "description": ""
 }
